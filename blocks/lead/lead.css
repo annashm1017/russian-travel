@@ -1,0 +1,15 @@
+.lead {
+    width: 100%;
+    min-height: 406px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media all and (min-width: 768px) {
+  .lead {
+    padding-bottom: 88px;
+  }
+}

@@ -1,0 +1,15 @@
+.lead__image {
+  width: 100%;
+}
+
+@media all and (min-width: 1024px) {
+  .lead__image {
+    width: 90%;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .lead__image {
+    width: 77%;
+  }
+}
