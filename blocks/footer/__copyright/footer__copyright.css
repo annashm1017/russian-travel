@@ -1,0 +1,27 @@
+.footer__copyright {
+  color: #fff;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: normal;
+}
+
+@media all and (min-width: 768px) {
+    .footer__copyright {
+        line-height: 114%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 9%;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .footer__copyright {
+        margin-left: 27%;
+    }
+}
+
+@media all and (min-width: 1280px) {
+    .footer__copyright {
+        margin-left: 42%;
+    }
+}

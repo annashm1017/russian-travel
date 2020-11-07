@@ -12,7 +12,8 @@
 
 @media all and (min-width: 1024px) {
   .place__image {
-      width: 440px;
+  width: 440px;
+  padding-bottom: 32px;
   }
 }
 
