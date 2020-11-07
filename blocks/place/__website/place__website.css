@@ -1,0 +1,16 @@
+.place__website {
+    margin: 0;
+    vertical-align: end;
+}
+
+@media all and (max-width: 767px) {
+  .place__website {
+    display: none;
+  }
+}
+    
+@media all and (min-width: 1024px) {
+    .place__website {
+ 
+    }
+}

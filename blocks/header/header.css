@@ -15,18 +15,18 @@
     padding-top: 28px;
     padding-right: 24px;
     padding-left: 24px;
-}
+  }
 }
 
 @media all and (min-width: 1024px) {
     .header {
       padding-right: 48px;
       padding-left: 48px;
-  }
+    }
   }
 
   @media all and (min-width: 1280px) {
     .header {
       padding-bottom: 56px;
-  }
+    }
   }

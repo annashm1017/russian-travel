@@ -1,0 +1,38 @@
+.place__paragraph {
+  margin-top: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 163%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 25px;
+  margin: 0;
+}
+
+@media all and (min-width: 768px) {
+  .place__paragraph {
+     padding-left: 0;
+     padding-right: 0;
+  }
+
+  .place__paragraph:last-child {
+      padding-bottom: 25px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .place__paragraph {
+      font-size: 18px;
+  }
+
+  .place__paragraph:last-child {
+    padding-bottom: 32px;
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .place__paragraph {
+      min-width: 484px;
+  }
+}
