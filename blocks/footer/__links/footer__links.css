@@ -1,0 +1,19 @@
+
+@media all and (min-width: 768px) {
+  .footer__links {
+      min-width: 60%;
+      justify-content: space-between;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .footer__links {
+      min-width: 45.3%;
+  }
+}
+
+@media all and (min-width: 1280px) {
+    .footer__links {
+        min-width: 36%;
+    }
+}

@@ -20,21 +20,12 @@
     .footer__column {
       flex-direction: row;
       min-height: 18px;
-      justify-content: space-between;
-      min-width: 60%;
       margin-top: 88px;
     }
 }
 
 @media all and (min-width: 1024px) {
     .footer__column {
-        min-width: 45%;
         margin-top: 92px;
-    }
-}
-
-@media all and (min-width: 1280px) {
-    .footer__column {
-        min-width: 36%;
     }
 }
