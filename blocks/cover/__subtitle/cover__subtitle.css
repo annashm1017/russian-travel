@@ -3,12 +3,11 @@
   line-height: 114%;
   color: #fff;
   font-weight: normal;
-  margin: auto;
+  margin-top: 0;
   text-align: center;
   align-self: center;
-  position: absolute;
-  bottom: 20%;
-  left: 0%;
+  position: relative;
+  z-index: 10;
 }
 
 @media all and (min-width: 375px) {

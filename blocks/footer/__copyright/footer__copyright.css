@@ -9,7 +9,7 @@
 @media all and (min-width: 768px) {
     .footer__copyright {
         line-height: 114%;
-        margin-top: 0;
+        margin-top: 88px;
         margin-bottom: 0;
         margin-left: 9%;
     }

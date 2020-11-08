@@ -4,6 +4,13 @@
     align-items: flex-start;
     justify-content: space-between;
     min-height: 248px;
+    margin-top: 64px;
+}
+
+@media all and (min-width: 500px) {
+    .footer__column {
+        margin-top: 64px;
+    }
 }
 
 @media all and (min-width: 768px) {
@@ -12,12 +19,14 @@
       min-height: 18px;
       justify-content: space-between;
       min-width: 60%;
+      margin-top: 88px;
     }
 }
 
 @media all and (min-width: 1024px) {
     .footer__column {
         min-width: 45%;
+        margin-top: 92px;
     }
 }
 
