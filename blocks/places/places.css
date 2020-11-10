@@ -1,18 +1,11 @@
 .places {
-  display: grid;
-  grid-template-columns: 1fr;
-  column-gap: 32px;
   padding-top: 0;
 }
 
 @media all and (min-width: 768px) {
   .places {
-    grid-template-columns: repeat(2, 1fr);
     padding-left: 3%;
     padding-right: 3%;
-    padding-bottom: 65px;
-    column-gap: 28px;
-    row-gap: 48px;
   }
 }
 
@@ -20,8 +13,6 @@
   .places {
     padding-left: 5%;
     padding-right: 5%;
-    column-gap: 32px;
-    padding-bottom: 60px;
   }
 }
 
@@ -29,6 +20,5 @@
   .places {
     padding-left: 11.5%;
     padding-right: 11.5%;
-    column-gap: 40px;
   }
 }

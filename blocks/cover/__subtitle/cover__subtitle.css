@@ -7,7 +7,7 @@
   text-align: center;
   align-self: center;
   position: relative;
-  z-index: 10;
+  z-index: 12;
 }
 
 @media all and (min-width: 375px) {
@@ -42,12 +42,5 @@
   .cover__subtitle {
     margin-left: 32%;
     margin-right: 32%;
-    bottom: 30%;
-  }
-}
-
-@media all and (min-width: 1280px) {
-  .cover__subtitle {
-    bottom: 33%;
   }
 }

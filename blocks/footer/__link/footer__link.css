@@ -4,17 +4,16 @@
   line-height: 100%;
   font-weight: normal;
   text-decoration: none;
-  transition: opacity 0.5s linear 0.2s;
+  transition: opacity;
 }
 
 .footer__link:hover {
-  opacity: 0.6;
-  color: #fff;
+  opacity: 0.8;
 }
 
 @media all and (min-width: 768px) {
-    .footer__link {
-        font-size: 16px;
-        line-height: 112.5%;
-    }
+  .footer__link {
+    font-size: 16px;
+    line-height: 112.5%;
+  }
 }

@@ -4,10 +4,10 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 122%;
-  transition: opacity 0.5s linear 0.2s;
+  align-self: flex-start;
+  transition: opacity;
 }
 
 .place__website-link:hover {
-  opacity: 0.6;
-  color: #fff;
+  opacity: 0.8;
 }

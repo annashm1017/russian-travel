@@ -1,7 +1,7 @@
 .cover__overlay {
   position: relative;
   background-color: #2A2C2F;
-  opacity: 0.3;
+  opacity: 1;
   z-index: 11;
   cursor: pointer;
 }
@@ -14,9 +14,9 @@
   right: 0;
   bottom: 0;
   background-color: #2A2C2F;
-  opacity: 0;
+  opacity: 0.3;
 }
 
 .cover__overlay:hover:before {
-  opacity: 0.5;
+  opacity: 0.8;
 }

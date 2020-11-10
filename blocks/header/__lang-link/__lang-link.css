@@ -4,17 +4,14 @@
   font-weight: normal;
   line-height: 110%;
   color: #fff;
-  margin-right: 18px;
+  padding-left: 18px;
   position: relative;
   top: 6px;
+  transition: opacity;
 }
 
-.header__lang-link:first-of-type {
-    text-decoration: underline;
-}
-
-.header__lang-link:last-of-type {
-  margin-right: 0;
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 @media all and (min-width: 768px) {

@@ -11,7 +11,7 @@
 }
 
 .place__paragraph:last-child {
-  padding-bottom: 50px;
+  padding-bottom: 49px;
 }
 
 @media all and (min-width: 768px) {
@@ -21,22 +21,24 @@
   }
 
   .place__paragraph:last-child {
-      padding-bottom: 25px;
+    padding-bottom: 73px;
   }
 }
 
 @media all and (min-width: 1024px) {
   .place__paragraph {
-      font-size: 18px;
+    font-size: 18px;
+    padding-bottom: 27px;
   }
 
   .place__paragraph:last-child {
-    padding-bottom: 32px;
+    padding-bottom: 0;
   }
 }
 
 @media all and (min-width: 1280px) {
   .place__paragraph {
-      min-width: 484px;
+    min-width: 484px;
+    padding-bottom: 26px;
   }
 }
