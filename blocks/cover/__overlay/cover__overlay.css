@@ -3,7 +3,6 @@
   background-color: #2A2C2F;
   opacity: 1;
   z-index: 11;
-  cursor: pointer;
 }
 
 .cover__overlay:before {
@@ -15,8 +14,4 @@
   bottom: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
-}
-
-.cover__overlay:hover:before {
-  opacity: 0.8;
 }
