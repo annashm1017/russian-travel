@@ -4,12 +4,6 @@
   min-height: 200px;
   position: relative;
   z-index: 12;
-  cursor: pointer;
-}
-
-.cover__link:hover {
-  opacity: 0.8;
-  color: #2A2C2F;
 }
 
 @media all and (min-width: 375px) {
