@@ -7,7 +7,7 @@
   margin-bottom: 5%;
   text-align: center;
   position: relative;
-  z-index: 12;
+  z-index: 1;
 }
 
 @media all and (min-width: 375px) {

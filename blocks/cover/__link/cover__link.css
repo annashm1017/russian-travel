@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 200px;
   position: relative;
-  z-index: 12;
+  z-index: 1;
 }
 
 @media all and (min-width: 375px) {
@@ -46,8 +46,5 @@
 @media all and (min-width: 1280px) {
   .cover__link {
     min-height: 740px;
-    width: 92.5%;
-    margin-left: 3.75%;
-    margin-right: 3.75%;
   }
 }

@@ -1,53 +1,6 @@
 .cover {
-  padding-top: 17px;
-  width: 100%;
-  min-height: 200px;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@media all and (min-width: 375px) {
-  .cover {
-    min-height: 235px;
-  }
-}
-
-@media all and (min-width: 425px) {
-  .cover {
-    min-height: 265px;
-  }
-}
-
-@media all and (min-width: 500px) {
-  .cover {
-    min-height: 312px;
-  }
-}
-
-@media all and (min-width: 600px) {
-  .cover {
-    min-height: 375px;
-  }
-}
-
-@media all and (min-width: 768px) {
-  .cover {
-    min-height: 480px;
-  }
-}
-
-@media all and (min-width: 1024px) {
-  .cover {
-    min-height: 640px;
-    padding-top: 12px;
-  }
-}
-
-@media all and (min-width: 1280px) {
-  .cover {
-    min-height: 740px;
-  }
 }

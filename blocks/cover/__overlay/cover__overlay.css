@@ -1,8 +1,5 @@
 .cover__overlay {
-  position: relative;
-  background-color: #2A2C2F;
   opacity: 1;
-  z-index: 11;
 }
 
 .cover__overlay:before {
