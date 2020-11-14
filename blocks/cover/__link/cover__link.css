@@ -1,50 +1,6 @@
 .cover__link {
   text-decoration: none;
   width: 100%;
-  min-height: 200px;
   position: relative;
-  z-index: 1;
-}
-
-@media all and (min-width: 375px) {
-  .cover__link {
-    min-height: 235px;
-  }
-}
-
-@media all and (min-width: 425px) {
-  .cover__link {
-    min-height: 265px;
-  }
-}
-
-@media all and (min-width: 500px){
-  .cover__link {
-    min-height: 312px;
-  }
-}
-
-@media all and (min-width: 600px) {
-  .cover__link {
-    min-height: 375px;
-  }
-}
-
-@media all and (min-width: 768px) {
-  .cover__link {
-    min-height: 480px;
-  }
-}
-
-@media all and (min-width: 1024px) {
- .cover__link {
-    min-height: 640px;
-  }
-}
-
-
-@media all and (min-width: 1280px) {
-  .cover__link {
-    min-height: 740px;
-  }
+  z-index: 2;
 }

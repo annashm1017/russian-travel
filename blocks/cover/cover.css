@@ -4,3 +4,10 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    padding-left: 3.75%;
+    padding-right: 3.75%;
+  }
+}
